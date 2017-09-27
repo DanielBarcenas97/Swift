@@ -4,7 +4,7 @@ import UIKit
 
 //var and let
 
-var str = "Hello, playground"      //Var can changed
+var str = "Hello, playground"      //Var Es una Variable que puede Cambiar
 
 str="Hi, Everyone"
 
