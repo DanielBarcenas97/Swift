@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C859EC4D1D1933A300E88A03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C859EC4C1D1933A300E88A03 /* AppDelegate.swift */; };
+		C859EC4F1D1933A300E88A03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C859EC4E1D1933A300E88A03 /* ViewController.swift */; };
+		C859EC521D1933A300E88A03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C859EC501D1933A300E88A03 /* Main.storyboard */; };
+		C859EC541D1933A300E88A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C859EC531D1933A300E88A03 /* Assets.xcassets */; };
+		C859EC571D1933A300E88A03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C859EC551D1933A300E88A03 /* LaunchScreen.storyboard */; };
+		C859EC601D1933C500E88A03 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C859EC5F1D1933C500E88A03 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C859EC491D1933A300E88A03 /* Location Aware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Location Aware.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C859EC4C1D1933A300E88A03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C859EC4E1D1933A300E88A03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C859EC511D1933A300E88A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C859EC531D1933A300E88A03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C859EC561D1933A300E88A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C859EC581D1933A300E88A03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C859EC5F1D1933C500E88A03 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C859EC461D1933A300E88A03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C859EC601D1933C500E88A03 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C859EC401D1933A300E88A03 = {
+			isa = PBXGroup;
+			children = (
+				C859EC4B1D1933A300E88A03 /* Location Aware */,
+				C859EC4A1D1933A300E88A03 /* Products */,
+				C859EC5E1D1933C500E88A03 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C859EC4A1D1933A300E88A03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C859EC491D1933A300E88A03 /* Location Aware.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C859EC4B1D1933A300E88A03 /* Location Aware */ = {
+			isa = PBXGroup;
+			children = (
+				C859EC4C1D1933A300E88A03 /* AppDelegate.swift */,
+				C859EC4E1D1933A300E88A03 /* ViewController.swift */,
+				C859EC501D1933A300E88A03 /* Main.storyboard */,
+				C859EC531D1933A300E88A03 /* Assets.xcassets */,
+				C859EC551D1933A300E88A03 /* LaunchScreen.storyboard */,
+				C859EC581D1933A300E88A03 /* Info.plist */,
+			);
+			path = "Location Aware";
+			sourceTree = "<group>";
+		};
+		C859EC5E1D1933C500E88A03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C859EC5F1D1933C500E88A03 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C859EC481D1933A300E88A03 /* Location Aware */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C859EC5B1D1933A300E88A03 /* Build configuration list for PBXNativeTarget "Location Aware" */;
+			buildPhases = (
+				C859EC451D1933A300E88A03 /* Sources */,
+				C859EC461D1933A300E88A03 /* Frameworks */,
+				C859EC471D1933A300E88A03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Location Aware";
+			productName = "Location Aware";
+			productReference = C859EC491D1933A300E88A03 /* Location Aware.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C859EC411D1933A300E88A03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Appfish;
+				TargetAttributes = {
+					C859EC481D1933A300E88A03 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C859EC441D1933A300E88A03 /* Build configuration list for PBXProject "Location Aware" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C859EC401D1933A300E88A03;
+			productRefGroup = C859EC4A1D1933A300E88A03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C859EC481D1933A300E88A03 /* Location Aware */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C859EC471D1933A300E88A03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C859EC571D1933A300E88A03 /* LaunchScreen.storyboard in Resources */,
+				C859EC541D1933A300E88A03 /* Assets.xcassets in Resources */,
+				C859EC521D1933A300E88A03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C859EC451D1933A300E88A03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C859EC4F1D1933A300E88A03 /* ViewController.swift in Sources */,
+				C859EC4D1D1933A300E88A03 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C859EC501D1933A300E88A03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C859EC511D1933A300E88A03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C859EC551D1933A300E88A03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C859EC561D1933A300E88A03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C859EC591D1933A300E88A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C859EC5A1D1933A300E88A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C859EC5C1D1933A300E88A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Location Aware/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appfish.Location-Aware";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C859EC5D1D1933A300E88A03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Location Aware/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appfish.Location-Aware";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C859EC441D1933A300E88A03 /* Build configuration list for PBXProject "Location Aware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C859EC591D1933A300E88A03 /* Debug */,
+				C859EC5A1D1933A300E88A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C859EC5B1D1933A300E88A03 /* Build configuration list for PBXNativeTarget "Location Aware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C859EC5C1D1933A300E88A03 /* Debug */,
+				C859EC5D1D1933A300E88A03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C859EC411D1933A300E88A03 /* Project object */;
+}

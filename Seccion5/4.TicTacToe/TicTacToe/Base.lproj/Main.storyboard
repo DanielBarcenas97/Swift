@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11129.15" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11103.10"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TicTacToe" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="board.png" translatesAutoresizingMaskIntoConstraints="NO" id="kpt-y9-hcx">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="Xnz-Lk-E2A"/>
+                                    <constraint firstAttribute="height" constant="399" id="db0-2h-yd8"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u4A-Te-Prr">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="877-ay-a6N"/>
+                                    <constraint firstAttribute="width" constant="90" id="zzf-og-JaE"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bbr-b4-aa4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUf-9n-9iW">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="DFD-Ue-U0P"/>
+                                    <constraint firstAttribute="height" constant="66" id="tb2-Oq-EVi"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mHb-2O-98z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gfk-Yt-EbP">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="Hxt-Mj-WDS"/>
+                                    <constraint firstAttribute="width" constant="90" id="TZ2-s7-yfU"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qNf-zv-UkR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JN0-9s-Kyw">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="gK1-Ae-hqn"/>
+                                    <constraint firstAttribute="height" constant="66" id="xxS-G8-gm6"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="387-uL-aOO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Lw-ac-qd0">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="p7G-q7-XWX"/>
+                                    <constraint firstAttribute="height" constant="66" id="xvo-o8-7lP"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ps1-Pj-SbL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gim-eT-v4i">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="olI-rL-136"/>
+                                    <constraint firstAttribute="height" constant="66" id="tA0-1x-PX5"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uM5-sE-bAE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGV-Gg-gBk">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="FR3-tf-Hl7"/>
+                                    <constraint firstAttribute="width" constant="90" id="dvz-0p-Gr3"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9sW-V4-PJj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rv1-WX-XQN">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="Rbd-sv-APa"/>
+                                    <constraint firstAttribute="width" constant="90" id="qTy-WA-vja"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kSP-MH-VBF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zw3-2i-bv4">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="NB7-CH-Cgl"/>
+                                    <constraint firstAttribute="width" constant="90" id="twI-WQ-na4"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9zj-NS-rbT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Noughts has won!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fhY-oU-k4e">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="Fej-oV-vxo"/>
+                                    <constraint firstAttribute="width" constant="262" id="K4N-40-YZz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.12027189880609512" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Evs-l8-0Lf">
+                                <frame key="frameInset" minX="153" minY="367" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Play Again"/>
+                                <connections>
+                                    <action selector="playAgain:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OVy-sG-koL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fhY-oU-k4e" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2Tv-HK-tab"/>
+                            <constraint firstItem="gfk-Yt-EbP" firstAttribute="leading" secondItem="BUf-9n-9iW" secondAttribute="trailing" constant="37" id="42e-cZ-grc"/>
+                            <constraint firstItem="fhY-oU-k4e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="53Z-OR-AMl"/>
+                            <constraint firstItem="u4A-Te-Prr" firstAttribute="top" secondItem="BUf-9n-9iW" secondAttribute="bottom" constant="68" id="54Z-cV-G6X"/>
+                            <constraint firstItem="kpt-y9-hcx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5OD-yW-lGk"/>
+                            <constraint firstItem="u4A-Te-Prr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8U2-nm-KQr"/>
+                            <constraint firstItem="JN0-9s-Kyw" firstAttribute="leading" secondItem="u4A-Te-Prr" secondAttribute="trailing" constant="37" id="BcR-DQ-kZz"/>
+                            <constraint firstItem="hGV-Gg-gBk" firstAttribute="leading" secondItem="rv1-WX-XQN" secondAttribute="trailing" constant="37" id="HyG-hA-bvS"/>
+                            <constraint firstItem="kpt-y9-hcx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="J0N-Mq-opo"/>
+                            <constraint firstItem="u4A-Te-Prr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="MCo-nb-RmD"/>
+                            <constraint firstItem="JN0-9s-Kyw" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OIa-k0-3Gl"/>
+                            <constraint firstItem="rv1-WX-XQN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qke-vt-Ne5"/>
+                            <constraint firstItem="hGV-Gg-gBk" firstAttribute="top" secondItem="JN0-9s-Kyw" secondAttribute="bottom" constant="66" id="V48-lD-ED0"/>
+                            <constraint firstItem="u4A-Te-Prr" firstAttribute="leading" secondItem="Gim-eT-v4i" secondAttribute="trailing" constant="36" id="WVS-Wh-rbe"/>
+                            <constraint firstItem="rv1-WX-XQN" firstAttribute="leading" secondItem="Zw3-2i-bv4" secondAttribute="trailing" constant="36" id="ZFU-9V-OI2"/>
+                            <constraint firstItem="rv1-WX-XQN" firstAttribute="top" secondItem="u4A-Te-Prr" secondAttribute="bottom" constant="66" id="bef-Kq-vlK"/>
+                            <constraint firstItem="JN0-9s-Kyw" firstAttribute="top" secondItem="gfk-Yt-EbP" secondAttribute="bottom" constant="68" id="cJE-EL-HMs"/>
+                            <constraint firstItem="BUf-9n-9iW" firstAttribute="leading" secondItem="4Lw-ac-qd0" secondAttribute="trailing" constant="36" id="cbT-Te-Alg"/>
+                            <constraint firstItem="BUf-9n-9iW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="i73-oz-c9W"/>
+                            <constraint firstItem="Gim-eT-v4i" firstAttribute="top" secondItem="4Lw-ac-qd0" secondAttribute="bottom" constant="68" id="lDY-MR-enG"/>
+                            <constraint firstItem="Zw3-2i-bv4" firstAttribute="top" secondItem="Gim-eT-v4i" secondAttribute="bottom" constant="66" id="ws0-wO-SV4"/>
+                            <constraint firstItem="Gim-eT-v4i" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xRR-rp-qfc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="playAgainButton" destination="Evs-l8-0Lf" id="YmE-OP-HCt"/>
+                        <outlet property="winnerLabel" destination="fhY-oU-k4e" id="ZHL-3U-YOr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="board.png" width="744" height="783"/>
+    </resources>
+</document>

@@ -18,11 +18,11 @@ class ViewController: UIViewController {
         
         if fingersTextField.text == diceRoll {
             
-            resultLabel.text = "You're right!"
+            resultLabel.text = "Correcto"
             
         } else {
             
-            resultLabel.text = "Wrong! It was a " + diceRoll + "."
+            resultLabel.text = "Mal, el numero es" + diceRoll + "."
             
         }
         
